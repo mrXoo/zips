@@ -1,0 +1,19 @@
+<settings>
+    <setting id="depth" value="2" />
+    <setting id="download" value="/var/media/KODI/" />
+    <setting id="ffmpeg" value="/bin/ffmpeg" />
+    <setting id="ffmpeg.last" value="" />
+    <setting id="last.update" value="1576911601.43" />
+    <setting id="recording.hours" value="6" />
+    <setting id="service" value="true" />
+    <setting id="service.delay.seconds" value="60" />
+    <setting id="service.interval" value="24" />
+    <setting id="service.startup" value="false" />
+    <setting id="service.time" value="00:00" />
+    <setting id="service.type" value="2" />
+    <setting id="trakt.api.key" value="fbaadf97ffeee5c38732ad51443acf9298a54bcc1e8913e7d72b2ddc1158082e" />
+    <setting id="trakt.user" value="" />
+    <setting id="ttl" value="1" />
+    <setting id="url" value="true" />
+    <setting id="url.favourites" value="false" />
+</settings>
