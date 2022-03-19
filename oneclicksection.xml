@@ -1,133 +1,21 @@
 
 <dir>
-<title>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]NE CLICK MOVIE[/B][/COLOR][COLOR dodgerblue][B]S (OLDER)[/B][/COLOR]</title>
+<title>Movies</title>
 <link>http://www.midian.appboxes.co/wolfyB/newmidian/Movies/megalist.m3u</link>
 <thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/oneclick.png</thumbnail>
 <fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
 </dir>
 
 <dir>
-<name>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]NE CLICK MOVIE[/B][/COLOR][COLOR dodgerblue][B]S (OLDER)[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/oneclickclassic.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/oneclick.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<title>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]NE CLICK CATCH-UP T[/B][/COLOR][COLOR dodgerblue][B]V[/B][/COLOR]</title>
+<title>TV Shows</title>
 <link>http://www.midian.appboxes.co/wolfyB/newmidian/TVShows/tvseries.m3u</link>
 <thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/catchup.png</thumbnail>
 <fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
 </dir>
 
 <dir>
-<title>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]NE CLICK CATCH-UP T[/B][/COLOR][COLOR dodgerblue][B]V (1500 LATEST EPISODES)[/B][/COLOR]</title>
+<title>Latest Aired Episodes</title>
 <link>http://www.midian.appboxes.co/wolfyB/newmidian/TVShows/Latest.m3u</link>
 <thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/catchup.png</thumbnail>
 <fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
 </dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]NE CLICK WALT VAUL[/B][/COLOR][COLOR dodgerblue][B]T[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/disney.xml</link>
-<thumbnail>https://pngimage.net/wp-content/uploads/2018/06/up-disney-png-6.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]C[/B][/COLOR][COLOR ghostwhite][B]HRISTMAS SPIRI[/B][/COLOR][COLOR dodgerblue][B]T[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Holidays/Christmas/christmas-tube.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/xmas.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]H[/B][/COLOR][COLOR ghostwhite][B]ALLOWEEN TIM[/B][/COLOR][COLOR dodgerblue][B]E[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Holidays/halloween_stuff/halloween.xml</link>
-<thumbnail>http://pngimg.com/uploads/halloween/halloween_PNG23.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]DE TO CHARLIE BROW[/B][/COLOR][COLOR dodgerblue][B]N[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/misc5/Brown/charliebrown.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/charlie.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]PEN DIRECTORIE[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/openlists.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/open.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<plugin>
-<title>[COLOR dodgerblue][B]K[/B][/COLOR][COLOR ghostwhite][B]UNG FU THEATE[/B][/COLOR][COLOR dodgerblue][B]R[/B][/COLOR]</title>
-<link>plugin://plugin.video.youtube/playlist/PLH5v_GzPGijxaRjTFOhOH9uDGVqSgF8M7/</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/kungfu.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</plugin>
-
-<dir>
-<name>[COLOR dodgerblue][B]C[/B][/COLOR][COLOR ghostwhite][B]ORONAVIRUS PANDEMIC: REAL TIME COUNTER, WORLD MAP, NEW[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/corona.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/counter.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]L[/B][/COLOR][COLOR ghostwhite][B]IVE CHANNEL[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/live/liveindex.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/live.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]2[/B][/COLOR][COLOR ghostwhite][B]4/7 LIVE CAM[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Livecams/newlivecams.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/247live.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]A[/B][/COLOR][COLOR ghostwhite][B]T THE GY[/B][/COLOR][COLOR dodgerblue][B]M[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Fitness/workout.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/gym.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]C[/B][/COLOR][COLOR ghostwhite][B]LASSIC SPORT[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/sports.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/sports.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]H[/B][/COLOR][COLOR ghostwhite][B]ELPING HAND[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Mentalhelp/mentalindex.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/ands.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]O[/B][/COLOR][COLOR ghostwhite][B]DDS AND END[/B][/COLOR][COLOR dodgerblue][B]S[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/OddsnEnds/oddsandends.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/odds.png<thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<dir>
-<name>[COLOR dodgerblue][B]T[/B][/COLOR][COLOR ghostwhite][B]HE MUSIC BO[/B][/COLOR][COLOR dodgerblue][B]X[/B][/COLOR]</name>
-<link>http://www.midian.appboxes.co/wolfyB/newmidian/Music/music.xml</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/music.png<thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</dir>
-
-<plugin>
-<title>[COLOR lime][B]S[/B][/COLOR][COLOR ghostwhite][B]EARCH YOUTUB[/B][/COLOR][COLOR lime][B]E[/B][/COLOR]</title>
-<link>plugin://plugin.video.youtube/kodion/search/input/</link>
-<thumbnail>http://www.midian.appboxes.co/wolfyB/newmidian/2021index/midianicons/youtube.png</thumbnail>
-<fanart>https://images.wallpaperscraft.com/image/abstraction_stains_black_165146_1920x1080.jpg</fanart>
-</plugin>
