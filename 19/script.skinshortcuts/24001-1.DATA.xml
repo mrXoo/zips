@@ -1,0 +1,26 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>submenu</defaultID>
+		<label>Submenu</label>
+		<label2 />
+		<icon>special://skin/extras/icons/playlist.png</icon>
+		<thumb />
+		<action>Submenu</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>1037</defaultID>
+		<label>1037</label>
+		<label2 />
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,addons://sources/video/,return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>programs</defaultID>
+		<label>10001</label>
+		<label2>Programs</label2>
+		<icon>special://skin/extras/icons/addons.png</icon>
+		<thumb />
+		<action>addons://sources/executable/</action>
+		</shortcut>
+	</shortcuts>

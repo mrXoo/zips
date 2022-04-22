@@ -1,0 +1,18 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>568</defaultID>
+		<label>568</label>
+		<label2 />
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(PVR,pvr://channels/tv/*,return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>[B][COLOR white]Live[/COLOR][/B]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.kemo%2fresources%2ficons%2flivetv.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.kemo/?url=url&amp;mode=22&amp;name=%5BB%5D%5BCOLOR%20white%5DLive%5B/COLOR%5D%5B/B%5D&amp;iconimage=/storage/.kodi/addons/plugin.video.kemo/resources/icons/livetv.png&amp;description=Live%20Channels&amp;xtra=test_parm",return)</action>
+		</shortcut>
+	</shortcuts>

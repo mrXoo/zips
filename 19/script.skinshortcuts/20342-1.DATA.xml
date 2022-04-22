@@ -1,0 +1,18 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>titles</defaultID>
+		<label>Movie Library</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/icons/folder.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,library://video/movies/titles.xml/,return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Trakt Watchlist</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.themoviedb.helper%2f%2fresources%2fposter.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.themoviedb.helper/?tmdb_type=movie&amp;list_name=Movies+Watchlist&amp;info=trakt_watchlist&amp;sort_by=title&amp;sort_how=asc&amp;widget=true",return)</action>
+		</shortcut>
+	</shortcuts>

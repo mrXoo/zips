@@ -1,0 +1,9 @@
+<shortcuts>
+	<shortcut>
+		<label>Weather</label>
+		<label2 />
+		<icon />
+		<thumb />
+		<action>Weather</action>
+		</shortcut>
+	</shortcuts>

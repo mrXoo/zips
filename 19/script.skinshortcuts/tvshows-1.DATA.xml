@@ -1,0 +1,18 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>titles</defaultID>
+		<label>Titles</label>
+		<label2 />
+		<icon>special://skin/extras/icons/folder.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,library://video/tvshows/titles.xml/,return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Your Next Episodes</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.themoviedb.helper%2f%2fresources%2ficons%2ftrakt%2finprogress.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.themoviedb.helper/?info=trakt_nextepisodes&amp;tmdb_type=tv&amp;widget=true",return)</action>
+		</shortcut>
+	</shortcuts>
