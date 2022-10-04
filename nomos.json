@@ -1,0 +1,14 @@
+{
+  "plugin.video.themoviedb.helper": {
+    "name": "themoviedb.helper",
+    "plugin": "plugin.video.themoviedb.helper",
+    "tvUrl": "?info=play&amp;type=episode&amp;tmdb_id={tmdb}&amp;season={season}&amp;episode={episode}",
+    "movieUrl": "?info=play&amp;tmdb_id={tmdb}&amp;type=movie"
+  },
+  "plugin.video.ezra": {
+    "name": "Ezra",
+    "plugin": "plugin.video.ezra",
+    "tvUrl": "/?mode=play_media&vid_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&plot={info[plot]}",
+    "movieUrl": "/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}"
+  }
+}
