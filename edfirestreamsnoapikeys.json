@@ -209,7 +209,7 @@
     {
       "type": "opensubtitles",
       "instanceId": "652",
-      "enabled": true,
+      "enabled": false,
       "options": {
         "name": "OpenSubtitles",
         "timeout": 10000,
@@ -401,6 +401,64 @@
     "uncached": "per_service",
     "p2p": "single_result"
   },
+  "autoPlay": {
+    "attributes": [
+      "service",
+      "proxied",
+      "resolution",
+      "quality",
+      "encode",
+      "audioTags",
+      "visualTags",
+      "languages",
+      "releaseGroup"
+    ]
+  },
+  "cacheAndPlay": {
+    "enabled": true,
+    "streamTypes": [
+      "usenet"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "position": "bottom",
+    "statsToShow": [
+      "addon",
+      "filter"
+    ]
+  },
+  "digitalReleaseFilter": {
+    "enabled": true,
+    "tolerance": 0,
+    "requestTypes": [],
+    "addons": []
+  },
+  "ageRangeTypes": [
+    "usenet"
+  ],
+  "seasonEpisodeMatching": {
+    "enabled": true,
+    "requestTypes": [],
+    "addons": []
+  },
+  "yearMatching": {
+    "enabled": true,
+    "tolerance": 3,
+    "strict": false,
+    "requestTypes": [],
+    "addons": []
+  },
+  "titleMatching": {
+    "mode": "exact",
+    "similarityThreshold": 0.9,
+    "enabled": true,
+    "requestTypes": [],
+    "addons": []
+  },
+  "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
+  "enableSeadex": true,
+  "regexOverrides": [],
   "proxy": {
     "enabled": false,
     "id": "mediaflow",
@@ -555,16 +613,6 @@
     1000
   ],
   "seederRangeTypes": [],
-  "ageRangeTypes": [
-    "usenet"
-  ],
-  "digitalReleaseFilter": {
-    "enabled": true,
-    "tolerance": 0,
-    "requestTypes": [],
-    "addons": []
-  },
-  "enableSeadex": true,
   "excludeSeasonPacks": false,
   "excludeCachedFromAddons": [],
   "excludeCachedFromServices": [],
@@ -671,61 +719,20 @@
   },
   "hideErrors": true,
   "hideErrorsForResources": [],
-  "statistics": {
-    "enabled": false,
-    "position": "bottom",
-    "statsToShow": [
-      "addon",
-      "filter"
-    ]
-  },
   "tmdbAccessToken": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNmM1ZWFlYmJmZGI0ZDY4ODk2NjEzNGRlZGQwY2YxYSIsIm5iZiI6MTc2OTM2OTI0Mi44OTY5OTk4LCJzdWIiOiI2OTc2NmU5YTAwYjJmYWMxODRhZTM3NjgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.9qivwUuRSNAXjYOws50Z7awlbr78WaE-hAxTdtANi2w",
   "tmdbApiKey": "2dd6ac58414f5ab461c67bb5eaf32208",
   "tvdbApiKey": "189ad792-ec0f-4271-a017-1597a7c50616",
-  "yearMatching": {
-    "enabled": true,
-    "tolerance": 3,
-    "strict": false,
-    "requestTypes": [],
-    "addons": []
-  },
-  "titleMatching": {
-    "mode": "exact",
-    "similarityThreshold": 0.9,
-    "enabled": true,
-    "requestTypes": [],
-    "addons": []
-  },
-  "seasonEpisodeMatching": {
-    "enabled": true,
-    "requestTypes": [],
-    "addons": []
-  },
-  "autoPlay": {
-    "attributes": [
-      "service",
-      "proxied",
-      "resolution",
-      "quality",
-      "encode",
-      "audioTags",
-      "visualTags",
-      "languages",
-      "releaseGroup"
-    ]
-  },
   "areYouStillThere": {
     "enabled": false
   },
   "precacheNextEpisode": true,
-  "alwaysPrecache": false,
   "catalogModifications": [
     {
       "id": "3456b98.torrentio-premiumize",
       "type": "other",
       "name": "Premiumize",
       "shuffle": false,
-      "enabled": true,
+      "enabled": false,
       "usePosterService": true,
       "hideable": true,
       "searchable": false,
@@ -747,18 +754,12 @@
       "type": "other",
       "name": "Premiumize",
       "shuffle": false,
-      "enabled": true,
+      "enabled": false,
       "usePosterService": true,
       "hideable": true,
       "searchable": false,
       "addonName": "TorrentsDB"
     }
   ],
-  "externalDownloads": false,
-  "cacheAndPlay": {
-    "enabled": true,
-    "streamTypes": [
-      "usenet"
-    ]
-  }
+  "externalDownloads": false
 }
