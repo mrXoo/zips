@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "id": "ed-streams-2026-02-15.13-06-24-ezlbofc",
+    "id": "ed-2026-02-16.17-41-10-xwtf6c0",
     "name": "Ed Streams",
-    "description": "Follow the prompts to enter real debrid API",
+    "description": "Follow the prompts to enter real debrid API key",
     "source": "external",
     "author": "Ed Streams",
     "version": "1.0.0",
@@ -471,16 +471,35 @@
     "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
     "enableSeadex": true,
     "regexOverrides": [],
+    "hideErrorsForResources": [],
     "proxy": {
       "enabled": false,
       "id": "mediaflow",
       "proxiedAddons": [],
       "proxiedServices": []
     },
-    "trusted": false,
-    "addonName": "Ed Fire Streams",
-    "addonLogo": "https://pngimg.com/d/firefox_PNG24.png?ref_type=heads",
-    "addonDescription": "This reconfigured setup makes streaming easy by doing all the hard work for you.",
+    "excludeUncachedFromAddons": [],
+    "excludeUncachedFromServices": [],
+    "excludeUncachedFromStreamTypes": [
+      "debrid"
+    ],
+    "excludeCachedFromAddons": [],
+    "excludeCachedFromServices": [],
+    "excludeCachedFromStreamTypes": [],
+    "preferredEncodes": [
+      "AV1",
+      "HEVC",
+      "AVC"
+    ],
+    "preferredStreamTypes": [],
+    "preferredVisualTags": [
+      "HDR10+",
+      "HDR10",
+      "HDR",
+      "HDR Only",
+      "10bit"
+    ],
+    "preferredAudioTags": [],
     "excludedResolutions": [],
     "includedResolutions": [],
     "requiredResolutions": [],
@@ -500,17 +519,9 @@
     ],
     "includedVisualTags": [],
     "requiredVisualTags": [],
-    "preferredVisualTags": [
-      "HDR10+",
-      "HDR10",
-      "HDR",
-      "HDR Only",
-      "10bit"
-    ],
     "excludedAudioTags": [],
     "includedAudioTags": [],
     "requiredAudioTags": [],
-    "preferredAudioTags": [],
     "excludedAudioChannels": [],
     "includedAudioChannels": [],
     "requiredAudioChannels": [],
@@ -521,17 +532,10 @@
     ],
     "includedStreamTypes": [],
     "requiredStreamTypes": [],
-    "preferredStreamTypes": [],
     "excludedEncodes": [],
     "includedEncodes": [],
     "requiredEncodes": [],
-    "preferredEncodes": [
-      "AV1",
-      "HEVC",
-      "AVC"
-    ],
     "excludedRegexPatterns": [],
-    "includedRegexPatterns": [],
     "requiredRegexPatterns": [],
     "preferredRegexPatterns": [
       {
@@ -592,7 +596,6 @@
       }
     ],
     "requiredKeywords": [],
-    "includedKeywords": [],
     "excludedKeywords": [],
     "preferredKeywords": [
       "Extended",
@@ -625,20 +628,8 @@
     ],
     "seederRangeTypes": [],
     "excludeSeasonPacks": false,
-    "excludeCachedFromAddons": [],
-    "excludeCachedFromServices": [],
-    "excludeCachedFromStreamTypes": [],
     "excludeUncached": false,
-    "excludeUncachedFromAddons": [],
-    "excludeUncachedFromServices": [],
-    "excludeUncachedFromStreamTypes": [
-      "debrid"
-    ],
-    "excludeUncachedMode": "or",
     "excludedStreamExpressions": [],
-    "requiredStreamExpressions": [
-      "merge(slice(resolution(streams, '2160p'), 0, 3),resolution(streams, '1080p', '720p', '480p', 'Unknown'))"
-    ],
     "preferredStreamExpressions": [
       "count(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'))>0?[]:count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'100GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'100GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'90GB','100GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'90GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'80GB','90GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'80GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'70GB','80GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'70GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'60GB','70GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'60GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'50GB','60GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'50GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'45GB','55GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'45GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'40GB','50GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'40GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'35GB','45GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'35GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'30GB','40GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'30GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'25GB','30GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'25GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'22.5GB','27.5GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'22.5GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'20GB','25GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'20GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'15GB','20GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'15GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'12.5GB','17.5GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'12.5GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'10GB','15GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'10GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'8GB','10GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'8GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'6GB','8GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'6GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'4GB','6GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'4GB'):count(size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'2GB','4GB'))>2?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'2GB'):[]",
       "count(resolution(quality(regexMatched(streams), 'Bluray REMUX'), '2160p'))==0?[]: count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'1GB','2GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'1GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'2GB','4GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'2GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'4GB','6GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'4GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'6GB','8GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'6GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'8GB','10GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'8GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'10GB','15GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'10GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'15GB','20GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'15GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'20GB','25GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'20GB'):    count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'25GB','30GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'25GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'30GB','35GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'30GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'35GB','40GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'35GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'40GB','50GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'40GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'50GB','60GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'50GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'60GB','70GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'60GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'70GB','80GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'70GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'80GB','90GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'80GB'):   count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'90GB','100GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'90GB'):  count(size(resolution(quality(regexMatched(streams),'Bluray REMUX'),'2160p'),'100GB'))>0?size(resolution(quality(streams,'Bluray REMUX'),'2160p'),'100GB'):[] ",
@@ -681,8 +672,7 @@
       "groupings": [],
       "behaviour": "parallel"
     },
-    "rpdbApiKey": "<template_placeholder>",
-    "usePosterRedirectApi": false,
+    "rpdbApiKey": "t0-free-rpdb",
     "resultLimits": {
       "global": 100
     },
@@ -728,14 +718,9 @@
         }
       }
     },
-    "hideErrors": true,
-    "hideErrorsForResources": [],
-    "tmdbAccessToken": "<template_placeholder>",
-    "tmdbApiKey": "<template_placeholder>",
-    "tvdbApiKey": "<template_placeholder>",
-    "areYouStillThere": {
-      "enabled": false
-    },
+    "tmdbAccessToken": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNmM1ZWFlYmJmZGI0ZDY4ODk2NjEzNGRlZGQwY2YxYSIsIm5iZiI6MTc2OTM2OTI0Mi44OTY5OTk4LCJzdWIiOiI2OTc2NmU5YTAwYjJmYWMxODRhZTM3NjgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.9qivwUuRSNAXjYOws50Z7awlbr78WaE-hAxTdtANi2w",
+    "tmdbApiKey": "2dd6ac58414f5ab461c67bb5eaf32208",
+    "tvdbApiKey": "189ad792-ec0f-4271-a017-1597a7c50616",
     "precacheNextEpisode": true,
     "catalogModifications": [
       {
@@ -772,6 +757,20 @@
         "addonName": "TorrentsDB"
       }
     ],
-    "externalDownloads": false
+    "externalDownloads": false,
+    "includedKeywords": [],
+    "excludeUncachedMode": "or",
+    "requiredStreamExpressions": [
+      "merge(slice(resolution(streams, '2160p'), 0, 3),resolution(streams, '1080p', '720p', '480p', 'Unknown'))"
+    ],
+    "hideErrors": true,
+    "addonName": "Ed Fire Streams",
+    "includedRegexPatterns": [],
+    "areYouStillThere": {
+      "enabled": false
+    },
+    "usePosterRedirectApi": false,
+    "addonLogo": "https://pngimg.com/d/firefox_PNG24.png?ref_type=heads",
+    "addonDescription": "This reconfigured setup makes streaming easy by doing all the hard work for you."
   }
 }
