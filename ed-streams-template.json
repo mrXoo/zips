@@ -273,7 +273,7 @@
     "services": [
       {
         "id": "premiumize",
-        "enabled": true,
+        "enabled": false,
         "credentials": {}
       }
     ],
