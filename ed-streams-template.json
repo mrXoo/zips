@@ -270,13 +270,7 @@
     "precacheNextEpisode": false,
     "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
     "precacheSingleStream": true,
-    "services": [
-      {
-        "id": "premiumize",
-        "enabled": false,
-        "credentials": {}
-      }
-    ],
+    "services": [],
     "presets": [
       {
         "type": "stremthruTorz",
