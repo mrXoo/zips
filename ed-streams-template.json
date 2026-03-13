@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "id": "ed-streams-template",
+    "id": "mr-ed-streams-2026-03-13.17-51-30-jz0uixa",
     "name": "Mr Ed Streams",
-    "description": "Doing the hard work for you",
+    "description": "Doing the hard work for you.",
     "source": "external",
     "author": "Mr Ed",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "category": "Debrid",
     "serviceRequired": false,
     "setToSaveInstallMenu": true
@@ -17,8 +17,12 @@
     "addonDescription": "This reconfigured setup makes streaming easy by doing all the hard work for you.",
     "appliedTemplates": [
       {
-        "id": "ed-streams-template",
-        "version": "1.0.1",
+        "id": "test-2026-03-10.23-00-24-mfma366",
+        "version": "1.0.0"
+      },
+      {
+        "id": "mr-ed-streams-2026-03-10.23-15-32-il59qpc",
+        "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/mrXoo/zips/refs/heads/main/ed-streams-template.json"
       }
     ],
@@ -270,7 +274,13 @@
     "precacheNextEpisode": false,
     "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
     "precacheSingleStream": true,
-    "services": [],
+    "services": [
+      {
+        "id": "premiumize",
+        "enabled": true,
+        "credentials": {}
+      }
+    ],
     "presets": [
       {
         "type": "stremthruTorz",
@@ -461,7 +471,7 @@
       {
         "type": "webstreamr",
         "instanceId": "748",
-        "enabled": true,
+        "enabled": false,
         "options": {
           "name": "WebStreamr",
           "timeout": 30000,
